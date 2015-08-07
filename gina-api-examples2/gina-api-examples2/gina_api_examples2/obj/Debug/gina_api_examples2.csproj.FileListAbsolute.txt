@@ -1,0 +1,5 @@
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\gina_api_examples2.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\gina_api_examples2.pdb
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.csprojResolveAssemblyReference.cache
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.pdb

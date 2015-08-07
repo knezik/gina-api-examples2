@@ -4,13 +4,13 @@ using Cirrious.MvvmCross.Droid.Views;
 
 namespace gina_api_examples2.Droid.Views
 {
-    [Activity(Label = "View for FirstViewModel")]
-    public class FirstView : MvxActivity
-    {
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
-            SetContentView(Resource.Layout.FirstView);
-        }
-    }
+	[Activity(Label = "Api examples")]
+	public class FirstView : MvxActivity
+	{
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+			SetContentView(Resource.Layout.FirstView);
+		}
+	}
 }

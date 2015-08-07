@@ -5,9 +5,10 @@ namespace gina_api_examples2.Core
     public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
     {
         public override void Initialize()
-        {
+		{
 			// services
-            CreatableTypes()
+			CreatableTypes()
+				.WithAttribute<Services.LoadOnStartAttribute>()
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();

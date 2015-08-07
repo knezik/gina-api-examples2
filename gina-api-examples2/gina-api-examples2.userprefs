@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="gina-api-examples2\gina_api_examples2.Droid\gina_api_examples2.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.8a5b04c6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="gina-api-examples2\gina_api_examples2\ViewModels\FirstViewModel.cs">
+    <Files>
+      <File FileName="gina-api-examples2\gina_api_examples2.Droid\Setup.cs" Line="8" Column="41" />
+      <File FileName="gina-api-examples2\gina_api_examples2\App.cs" Line="1" Column="1" />
+      <File FileName="gina-api-examples2\gina_api_examples2\packages.config" Line="1" Column="1" />
+      <File FileName="gina-api-examples2\gina_api_examples2.Droid\SplashScreen.cs" Line="1" Column="1" />
+      <File FileName="gina-api-examples2\gina_api_examples2.Droid\packages.config" Line="1" Column="1" />
+      <File FileName="gina-api-examples2\gina_api_examples2\ViewModels\FirstViewModel.cs" Line="20" Column="39" />
+      <File FileName="gina-api-examples2\gina_api_examples2\Services\IAllTestService.cs" Line="8" Column="3" />
+      <File FileName="gina-api-examples2\gina_api_examples2\Services\AllTestService.cs" Line="17" Column="15" />
+      <File FileName="gina-api-examples2\gina_api_examples2.Droid\Views\FirstView.cs" Line="16" Column="2" />
+      <File FileName="gina-api-examples2\gina_api_examples2\ViewModels\TestViewModel.cs" Line="17" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

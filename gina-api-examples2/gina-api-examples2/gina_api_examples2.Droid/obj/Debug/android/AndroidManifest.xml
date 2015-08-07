@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="gina_api_examples2.Droid">
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="gina_api_examples2.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md58d244aa841178ff2176aff8f273bf8d8.SplashScreen" />
+    <activity android:label="Api examples" android:name="md51373e415bf870fc361272e917fbfeb76.FirstView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="gina_api_examples2.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.gina_api_examples2.Droid" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/icon" android:label="gina_api_examples2.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Mono.Android.Theme.Splash" android:name="gina_api_examples2.droid.TrialSplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
