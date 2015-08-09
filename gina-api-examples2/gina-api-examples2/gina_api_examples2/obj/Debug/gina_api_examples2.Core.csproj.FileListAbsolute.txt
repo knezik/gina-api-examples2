@@ -6,3 +6,11 @@ C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_
 C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\Cirrious.MvvmCross.dll
 C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.Core.csprojResolveAssemblyReference.cache
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\gina_api_examples2.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\gina_api_examples2.pdb
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.Core.csprojResolveAssemblyReference.cache
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.dll
+C:\Users\Jan Novak\Vyvoj\Mobilni\gina-api-examples2\gina-api-examples2\gina-api-examples2\gina_api_examples2\obj\Debug\gina_api_examples2.pdb

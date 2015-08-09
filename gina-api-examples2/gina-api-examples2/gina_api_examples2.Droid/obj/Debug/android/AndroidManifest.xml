@@ -4,6 +4,22 @@
   <application android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="gina_api_examples2.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md58d244aa841178ff2176aff8f273bf8d8.SplashScreen" />
     <activity android:label="Api examples" android:name="md51373e415bf870fc361272e917fbfeb76.FirstView" />
+    <activity android:label="Push notify example" android:noHistory="true" android:name="md51373e415bf870fc361272e917fbfeb76.PushNotifyView" />
+    <service android:name="md5d2dfef184c24c5e6792f8e534ce0cde5.DroidPushNotificationService_PNIntentService" />
+    <receiver android:permission="com.google.android.c2dm.permission.SEND" android:name="md5d2dfef184c24c5e6792f8e534ce0cde5.DroidPushNotificationService_GCMBroadcastReceiver">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="gina_api_examples2.Droid" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="gina_api_examples2.Droid" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.google.android.gcm.intent.RETRY" />
+        <category android:name="gina_api_examples2.Droid" />
+      </intent-filter>
+    </receiver>
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="gina_api_examples2.Droid.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
@@ -20,4 +36,9 @@
   </application>
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <permission android:name="gina_api_examples2.Droid.permission.C2D_MESSAGE" />
+  <uses-permission android:name="gina_api_examples2.Droid.permission.C2D_MESSAGE" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
 </manifest>

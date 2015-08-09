@@ -21,7 +21,7 @@ namespace gina_api_examples2.Core.Services
 			_currentViewModel = currentViewModel;
 
 			All = typeof(AllTestsService).GetTypeInfo().Assembly.CreatableTypes()
-				.Where(t => typeof (ViewModels.TestViewModel).IsAssignableFrom(t))
+				.Where(t => typeof (ViewModels.TestViewModel).IsAssignableFrom(t) && (t != typeof(ViewModels.TestViewModel)))
 				.ToList();
 		}
 

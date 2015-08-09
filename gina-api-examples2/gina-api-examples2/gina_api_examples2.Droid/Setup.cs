@@ -1,7 +1,10 @@
 using Android.Content;
+
+using Cirrious.CrossCore;
 using Cirrious.CrossCore.Platform;
 using Cirrious.MvvmCross.Droid.Platform;
 using Cirrious.MvvmCross.ViewModels;
+
 
 namespace gina_api_examples2.Droid
 {
@@ -19,6 +22,13 @@ namespace gina_api_examples2.Droid
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override void InitializeLastChance()
+        {
+            base.InitializeLastChance();
+
+            Mvx.RegisterSingleton<Core.Services.IPushNotificationService>(new Services.DroidPushNotificationService());
         }
     }
 }
